@@ -216,7 +216,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.tme.eu/Document/613028b507cfc72671e78c1d2ad14b1d/RF2-154-T-17-50-G.pdf"
+			(property "Datasheet" "https://www.tme.eu/Document/5895dbb620da9c3499391e7670c4adea/RF2-143-T-17-50-G.pdf"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -228,11 +228,12 @@
 				)
 			)
 			(property "Description" "RF / Coaxial Connector, SMA, Board edge mount, 50Ω "
-				(at 0 0 0)
+				(at 20.32 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -395,9 +396,10 @@
 				)
 			)
 		)
-		(symbol "antmicroMechanicalParts:SMTRAM4-9-7ET"
+		(symbol "antmicroMechanicalParts:MP_Terminal_M4_SMD_Horizontal_SMTRAM4-9-7ET"
+			(pin_names hide)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 22.86 -2.54 0)
@@ -409,8 +411,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "SMTRAM4-9-7ET"
-				(at 22.86 -7.62 0)
+			(property "Value" "MP_Terminal_M4_SMD_Horizontal_SMTRAM4-9-7ET"
+				(at 22.86 -4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -420,8 +422,8 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:SMTRAM4-9-7ET"
-				(at 22.86 -10.16 0)
+			(property "Footprint" "antmicro-footprints:MP_Terminal_M4_SMD_Horizontal_SMTRAM4-9-7ET"
+				(at 22.86 -6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -432,7 +434,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.pemnet.com/eu/wp-content/uploads/sites/9/2022/06/radata.pdf"
-				(at 22.86 -12.7 0)
+				(at 22.86 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -442,59 +444,56 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Spacer, SMT, Steel, M4 Thread"
-				(at 0 0 0)
+			(property "Description" " Steel spacer, SMT, M4 Thread, Horizontal"
+				(at 21.844 -11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Würth Elektronik"
-				(at 22.86 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
 					)
 					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "MPN" "9774100482R"
-				(at 22.86 -5.08 0)
+			(property "Manufacturer" "PEM"
+				(at 22.86 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SMTRAM4-9-7ET"
+				(at 22.86 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 22.86 -17.78 0)
+				(at 22.86 -15.748 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
 					(justify left bottom)
 					(hide yes)
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 22.86 -20.32 0)
+				(at 22.86 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
 					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "MECHANICAL, SPACER"
+			(property "ki_keywords" "MECHANICAL, SMT, HORIZONTAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -503,7 +502,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMTRAM4-9-7ET_1_1"
+			(symbol "MP_Terminal_M4_SMD_Horizontal_SMTRAM4-9-7ET_1_1"
 				(rectangle
 					(start 2.54 -2.54)
 					(end 7.62 2.54)
@@ -515,9 +514,9 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start 3.81 -1.27)
-					(end 6.35 1.27)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3177,7 +3176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/613028b507cfc72671e78c1d2ad14b1d/RF2-154-T-17-50-G.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/5895dbb620da9c3499391e7670c4adea/RF2-143-T-17-50-G.pdf"
 			(at 222.25 134.62 0)
 			(effects
 				(font
@@ -3317,123 +3316,6 @@
 			(project ""
 				(path "/397d0a83-0126-436a-9cf1-8bcf1fa47f98"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroMechanicalParts:SMTRAM4-9-7ET")
-		(at 218.44 140.97 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63e9d232-85d5-4fd9-9928-f5df15c531ca")
-		(property "Reference" "H1"
-			(at 222.25 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMTRAM4-9-7ET"
-			(at 226.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SMTRAM4-9-7ET"
-			(at 228.6 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.pemnet.com/eu/wp-content/uploads/sites/9/2022/06/radata.pdf"
-			(at 231.14 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Spacer, SMT, Steel, M4 Thread"
-			(at 218.44 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 233.68 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "9774100482R"
-			(at 222.25 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 236.22 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 238.76 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1aa57b7-800a-4d1a-b42e-925f347fa94f")
-		)
-		(instances
-			(project ""
-				(path "/397d0a83-0126-436a-9cf1-8bcf1fa47f98"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3760,6 +3642,120 @@
 			(project ""
 				(path "/397d0a83-0126-436a-9cf1-8bcf1fa47f98"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:MP_Terminal_M4_SMD_Horizontal_SMTRAM4-9-7ET")
+		(at 218.44 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd675765-cf2d-422c-b190-d24fbfd67899")
+		(property "Reference" "H1"
+			(at 222.25 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MP_Terminal_M4_SMD_Horizontal_SMTRAM4-9-7ET"
+			(at 223.266 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:MP_Terminal_M4_SMD_Horizontal_SMTRAM4-9-7ET"
+			(at 225.298 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.pemnet.com/eu/wp-content/uploads/sites/9/2022/06/radata.pdf"
+			(at 227.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Steel spacer, SMT, M4 Thread, Horizontal"
+			(at 229.616 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PEM"
+			(at 238.76 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTRAM4-9-7ET"
+			(at 222.25 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 234.188 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 231.902 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9078623f-b606-41fb-8a33-1655304770eb")
+		)
+		(instances
+			(project ""
+				(path "/397d0a83-0126-436a-9cf1-8bcf1fa47f98"
+					(reference "H1")
 					(unit 1)
 				)
 			)
