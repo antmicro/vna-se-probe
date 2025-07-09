@@ -6,14 +6,14 @@ Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This repository contains open hardware design files for VNA SE probe, that can be used for VNA measurements on production PCBa without the need of soldering or adding dedicated connectors.
+This repository contains open hardware design files for a VNA SE probe that can be used for VNA measurements on production PCBs, without the need to solder or add dedicated connectors.
 
-### Design Features
+### Design features
 
 * SMA connector
 * Controlled 50 Ohm impedance
 * Compatible with M4 probe holder arms
-* Compatible with pogo-pins and measurement needles
+* Compatible with pogo pins and measurement needles
 * Probe pitch adjustable by soldering angle
 
 ## Repository structure
