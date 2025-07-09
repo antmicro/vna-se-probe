@@ -1,186 +1,21 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "397d0a83-0126-436a-9cf1-8bcf1fa47f98")
 	(paper "A3")
 	(title_block
 		(title "VNA SE probe")
-		(date "2025-04-10")
-		(rev "1.0.0")
+		(date "2025-07-09")
+		(rev "1.0.1")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
-		(symbol "Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 30.48 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R"
-				(at 30.48 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R"
-				(at 30.48 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://content.harwin.com/m/51ee0fc2ab2e7d58/original/DRG-02626-Technical-Drawing-Datasheet-P70-500-pdf.pdf"
-				(at 30.48 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Contact Spring Surface Mount"
-				(at 30.48 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "P70-5000045R"
-				(at 30.48 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Harwin"
-				(at 30.48 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 30.48 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 30.48 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "POGO-PIN, CONNECTOR, SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_1_1_1"
-				(polyline
-					(pts
-						(xy 12.7 -2.54) (xy 2.54 -2.54) (xy 2.54 2.54) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 12.7 -2.54)
-					(mid 14.4961 -1.7961)
-					(end 15.24 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 15.24 0)
-					(mid 14.4961 1.7961)
-					(end 12.7 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "antmicroCoaxialConnectorsRF:Conn_SMA_RF2-143-T-17-50-G"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -227,7 +62,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RF / Coaxial Connector, SMA, Board edge mount, 50Ω "
+			(property "Description" "RF / Coaxial Connector, SMA, Board edge mount, 50Ω"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -311,10 +146,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -1.778)
-					)
+				(arc
+					(start 3.302 0.508)
+					(mid 5.302 1.8083)
+					(end 6.858 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -324,9 +159,9 @@
 					)
 				)
 				(arc
-					(start 3.302 -0.508)
+					(start 6.858 0)
 					(mid 5.302 -1.808)
-					(end 6.858 0)
+					(end 3.302 -0.508)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -346,10 +181,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 6.858 0)
-					(mid 5.302 1.8083)
-					(end 3.302 0.508)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -1.778)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -395,9 +230,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroMechanicalParts:MP_Terminal_M4_SMD_Horizontal_SMTRAM4-9-7ET"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -444,7 +282,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " Steel spacer, SMT, M4 Thread, Horizontal"
+			(property "Description" "Steel spacer, SMT, M4 Thread, Horizontal"
 				(at 21.844 -11.176 0)
 				(effects
 					(font
@@ -544,8 +382,9 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "antmicroPogoPins:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R"
+		(symbol "antmicroPogoPins:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_CUSTOM_EdgeMount"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -559,7 +398,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R"
+			(property "Value" "Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_CUSTOM_EdgeMount"
 				(at 30.48 -7.62 0)
 				(effects
 					(font
@@ -570,7 +409,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R"
+			(property "Footprint" "antmicro-footprints:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_Edge"
 				(at 30.48 -10.16 0)
 				(effects
 					(font
@@ -655,22 +494,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_1_1"
-				(polyline
-					(pts
-						(xy 12.7 -2.54) (xy 2.54 -2.54) (xy 2.54 2.54) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_CUSTOM_EdgeMount_1_1"
 				(arc
-					(start 12.7 -2.54)
-					(mid 14.4961 -1.7961)
+					(start 12.7 2.54)
+					(mid 14.4961 1.7961)
 					(end 15.24 0)
 					(stroke
 						(width 0.254)
@@ -682,8 +509,20 @@
 				)
 				(arc
 					(start 15.24 0)
-					(mid 14.4961 1.7961)
-					(end 12.7 2.54)
+					(mid 14.4961 -1.7961)
+					(end 12.7 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -2.54) (xy 2.54 -2.54) (xy 2.54 2.54) (xy 12.7 2.54)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -711,11 +550,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:GND"
 			(power)
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -825,12 +669,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -912,6 +761,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -3417,8 +3267,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_1")
-		(lib_id "antmicroPogoPins:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_CUSTOM_EdgeMount")
 		(at 195.58 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3436,7 +3285,7 @@
 				)
 			)
 		)
-		(property "Value" "Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R"
+		(property "Value" "Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_CUSTOM_EdgeMount"
 			(at 167.64 132.08 0)
 			(effects
 				(font
@@ -3447,7 +3296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R"
+		(property "Footprint" "antmicro-footprints:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_Edge"
 			(at 167.64 129.54 0)
 			(effects
 				(font
@@ -3533,7 +3382,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_CUSTOM_EdgeMount")
 		(at 195.58 127 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3551,7 +3400,7 @@
 				)
 			)
 		)
-		(property "Value" "Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R"
+		(property "Value" "Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_CUSTOM_EdgeMount"
 			(at 167.64 119.38 0)
 			(effects
 				(font
@@ -3562,7 +3411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R"
+		(property "Footprint" "antmicro-footprints:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_Edge"
 			(at 167.64 116.84 0)
 			(effects
 				(font
@@ -3766,4 +3615,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
