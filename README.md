@@ -8,6 +8,8 @@ Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
 This project contains open hardware design files for a Vector Network Analyzer (VNA) Single Ended (SE) probe that can be used for VNA measurements on production PCBs, without the need to solder or add dedicated connectors.
 
+![](img/vna-se-photo.png)
+
 ### Design features
 
 * SMA connector
