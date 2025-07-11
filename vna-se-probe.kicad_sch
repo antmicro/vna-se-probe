@@ -409,7 +409,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_Edge"
+			(property "Footprint" "antmicro-footprints:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_CUSTOM_EdgeMount"
 				(at 30.48 -10.16 0)
 				(effects
 					(font
@@ -3296,7 +3296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_Edge"
+		(property "Footprint" "antmicro-footprints:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_CUSTOM_EdgeMount"
 			(at 167.64 129.54 0)
 			(effects
 				(font
@@ -3411,7 +3411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_Edge"
+		(property "Footprint" "antmicro-footprints:Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R_CUSTOM_EdgeMount"
 			(at 167.64 116.84 0)
 			(effects
 				(font
@@ -3501,7 +3501,7 @@
 		(at 218.44 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
