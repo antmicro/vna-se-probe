@@ -2,6 +2,8 @@
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
+[![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Hardware%20Portal-332d37?style=flat-square)](https://openhardware.antmicro.com/boards/vna-se-probe)
+
 ![](img/vna-se-render.png)
 
 ## Overview
